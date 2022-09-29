@@ -1,0 +1,54 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+    border: 2px solid black;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: center;
+}
+
+li a {
+    margin: 0;
+    padding: 20px;
+    color: #111111;
+}
+
+ul li a:hover, ul li a:focus {
+    color: red;
+}
+
+main {
+    border: 2px solid black;
+    width: 99,7%;
+    height: 1000vh;
+}
+
+.container {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;
+    border: 2px solid black;
+    width: 400px;
+    height: 215px;
+}
+
+.container2{
+    margin-left: 200px;
+    border: 2px solid black;
+    width: 140vh;
+    height: 200vh;
+}
+
+.container-grid {
+    display: grid;
+    height: 100vh;
+    grid-gap: 15px;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+}
