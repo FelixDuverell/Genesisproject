@@ -1,0 +1,58 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.navtext {
+    display: flex;
+    justify-content: start;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    border: 2px solid black;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: center;
+}
+
+li a {
+    margin: 0;
+    padding: 20px;
+    color: #111111;
+}
+
+ul li a:hover, ul li a:focus {
+    color: red;
+}
+
+.container {
+    margin-top: 10vh;
+    margin-left: 18vh;
+    border: 2px solid black;
+    width: 45vh;
+    height: 20vh;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text {
+    margin-top: 1vh;
+    margin-left: 18vh;
+    color: #7b7b7b;
+    border: 2px solid black;
+    width: 60vh;
+    height: 10vh;
+}
+
+.container3 {
+    margin-top: 140px;
+    margin-left: 130px;
+    border: 2px solid black;
+    width: 156vh;
+    height: 80vh;
+}
