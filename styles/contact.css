@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff0000;
+    color: #4A4FF2;
     transition: .3s;
 }
 
@@ -83,7 +83,7 @@ nav ul li a:hover {
     outline: none;
     height: 40px;
     width: 50vh;
-    color: #000;
+    color: #979797;
     display: 16px;
 }
 
@@ -95,7 +95,7 @@ nav ul li a:hover {
     outline: none;
     height: 40px;
     width: 50vh;
-    color: #000;
+    color: #979797;
     display: 16px;
 }
 
@@ -109,7 +109,7 @@ nav ul li a:hover {
 }
 
 .button:hover {
-    background-color: #0092a8;
+    background-color: #34a0ff;
     color: white;
     cursor: pointer;
     transition-duration: 0.4s;

@@ -35,37 +35,47 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff0000;
+    color: #4A4FF2;
     transition: .3s;
 }
 
 .container {
     margin: 150px;
-    /* border: 2px solid black; */
     width: 280px;
     height: 100px;
+}
+
+.genlist {
+    position: absolute;
+    font-style: bold;
+    top: 30%;
+    right: 30%;
+}
+
+.genlist2 {
+    top: 30%;
+    right: 15%;
+    position: absolute;
+    color: #808080;
+
 }
 
 .container2 {
     margin: 2px;
     color: #7b7b7b;
-    /* border: 2px solid black; */
     width: 630px;
     height: 180px;
 }
 
 .container3 {
     display: grid;
-    /* border: 2px solid black; */
     grid-gap: 15px;
     margin: 1px;
 }
 
 .container4 {
-    border: 2px solid black;
     margin: 150px;
     width: 1109px;
-    height: 90px;
 }
 .img-mid {
     margin: 150px;
