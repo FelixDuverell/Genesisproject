@@ -42,7 +42,7 @@ nav ul li a:hover {
 .container {
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
     grid-gap: 15px;
     justify-content: space-around;
     align-items: center;
@@ -66,38 +66,54 @@ nav ul li a:hover {
 
 .form-area {
     position: absolute;
-    top: 70%;
-    right: 1000%;
+    top: 50%;
+    right: 40%;
     transform: translate(50%,-50%);
     width: 100px;
-    height: 500px;
+    height: 400px;
     box-sizing: border-box;
-    
     padding: 40px;
 }
 
 .form-area input[type=text]{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mulish', sans-serif;
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #979797;
     background-color: transparent;
     outline: none;
     height: 40px;
-    color: #ffffff;
+    width: 50vh;
+    color: #000;
     display: 16px;
 }
 
 .form-area input[type=email]{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mulish', sans-serif;
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #979797;
     background-color: transparent;
     outline: none;
     height: 40px;
-    color: #ffffff;
+    width: 50vh;
+    color: #000;
     display: 16px;
 }
 
+
+.button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #4A4FF2;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #0092a8;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
 
 .img1 {
     margin: 150px;
